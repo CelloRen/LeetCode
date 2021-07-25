@@ -8,7 +8,7 @@ package tree;
 // 如果root没有子节点：root
 // 如果root只有左节点：root(left)
 // 如果root只有右节点：root()(right)
-public class Tree2str {
+public class Tree2str_606 {
     public String tree2str(TreeNode root) {
         //  root, left, right
         return dfs(root);

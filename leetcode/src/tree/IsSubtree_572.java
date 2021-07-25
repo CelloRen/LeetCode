@@ -2,7 +2,7 @@ package tree;
 
 // 572. 另一棵树的子树
 // url: https://leetcode-cn.com/problems/subtree-of-another-tree/
-public class IsSubtree {
+public class IsSubtree_572 {
     // 这里直接暴力递归，不是最优解
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
         return dfs(root, subRoot);

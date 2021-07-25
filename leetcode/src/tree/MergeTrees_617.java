@@ -2,7 +2,7 @@ package tree;
 
 // 617. 合并二叉树
 // https://leetcode-cn.com/problems/merge-two-binary-trees/
-public class MergeTrees {
+public class MergeTrees_617 {
 
     // 递归地合并即可
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
